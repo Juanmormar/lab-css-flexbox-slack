@@ -130,3 +130,137 @@ background-color: #540B51;
    
 
 }
+#trustedCompaniesContainer{
+    background-color:#F3EAE2; 
+    display: flex;
+    flex-wrap:wrap;
+    width: 768px;
+    height: 500px;
+    margin: 0;
+    justify-content: center;
+  align-items: center; 
+  margin: 0 auto;
+     }
+
+#trustedCompaniesContainer img {
+        max-width: 100%;
+        height: auto;
+        max-height: 100px;
+        margin: 5px; 
+
+      }
+#textTrustedCompanies{
+        text-align: center;
+        font-size: 40px;  }
+
+
+
+#teams{
+    background-color: white;
+    color: black;
+    text-align: center;
+    width: 768px;
+    margin: 0 0 0 0;
+    border-top: 50px;
+}
+#teams > h3{
+    color: #540B51;
+    font-size: 80px;
+    font-weight: bold;
+    margin: 0;
+    border-top: 70px solid white;
+}
+.procent{
+    color: #540B51;
+    font-size: 70px;
+    font-weight: bold;
+    margin: 75px auto auto auto; 
+}
+#teams > ul{
+     font-weight: bold;
+     margin: 0 250px auto 250px; 
+     list-style: none;
+}
+#teams #small{
+    font-size: 15px;
+    font-weight: normal;
+    margin-bottom: 50px;
+     }
+#try{
+    background-color: #540B51;
+    color: white;
+    width: 768px;
+    text-align: center;
+}
+#try button{
+    color: white; 
+  }
+
+#try > h3{
+font-size: 60px;
+     }
+#try #boton1{
+background-color: white;
+color: #540B51;
+width: 650px;
+height: 50px;
+font-size: 30px;
+border-radius: 5px;
+}
+#try #boton2{
+    color: white;
+    background-color: #540B51;
+    width: 650px;
+    height: 50px;
+    font-size: 30px;
+    border-radius: 5px;
+    border: 2px solid white;
+    margin: 15px; 
+    }
+    
+
+
+
+
+
+    @media (min-width: 768px) and (max-width: 1024px) {
+    #firstnav, #body,  #header, #trustedCompaniesContainer, #teams, #try, #first-h1{
+        width: 950px;
+        display: flex;
+        flex-wrap: wrap;
+         }
+         #trustedCompaniesContainer{
+            height: 300px;
+         }
+         #trustedCompaniesContainer img{
+ display: inline-block; 
+  margin-right: 10px;
+  max-width: 100%; 
+  height: auto; 
+  width: 100px;
+  margin: 20px; 
+         }
+    #teams ul{
+        display: flex;
+        flex-flow: row nowrap; 
+        margin: 20px 50px 50px 50px;
+    
+    }
+   
+    #teams #mobileP{
+    margin-left: 200px;
+    }
+    #teams #small{
+        display: none;
+        }
+    #try #boton1{
+        margin-left: 175px; 
+    }
+    #try #boton2{
+        margin-left: 175px; 
+    }
+    #try h3{
+        text-align: center;
+        margin-left: 20px;
+    }
+     }
