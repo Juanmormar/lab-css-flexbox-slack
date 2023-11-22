@@ -39,14 +39,16 @@
       </ul>
     </div>
 
-    <div class="buttons-2">
-      <button>
-        <img src="./images/icon-search.png" alt="Search icon">
+    <div id="first-div"  >
+      <button id="first-b" class="buttons">
+        <img id="img-search" class="nav-imgs" src="./images/icon-search.png" alt="Search icon">
       </button>
 
-      <button>
-        <img src="./images/icon-menu.png" alt="Menu icon">
+      <button id="second-b" class="buttons" >
+        <img id="img-menu" class="nav-imgs" src="./images/icon-menu.png" alt="Menu icon">
       </button>
+
+      <hr id="hr-nav">
 
       <ul hidden id="first-ul">
         <li>
@@ -62,17 +64,17 @@
 
   <!-- HEADER -->
   <header id="header" >
-    <div>
-      <h1 id="first-h1">Great teamwork <br/>
-          starts with a digital <br/>
-                 &emsp; &emsp; &ensp; HQ</h1>
+    <div id="description">
+      <h1 id="first-h1">Great teamwork
+          starts with a digital 
+           HQ</h1>
 
       <p id="first-p"><b id="phrase-p">Slack is free to try</b> for as long as you'd like.</p>
 
-      <div>
-        <button id="email">Sign up with email</button>
+      <div id="sign-in">
+        <button id="email" class="button-sign">Sign up with email</button>
 
-        <button id="google">
+        <button id="google" class="button-sign">
           <img id="second-img" src="./images/logo-google.png" alt="Google logo" />
           <span id="first-span">Sign up with Google</span>
         </button>
@@ -80,7 +82,7 @@
 
     </div>
 
-    <div>
+    <div class="image-container">
       <img id="third-img" src="./images/hero-product-ui.png" alt="Slack app screenshot" />
     </div>
   </header>
@@ -143,36 +145,38 @@
     </div>
 
   </main>
-  <footer>
-    <ul>
+  <footer class="footer">
+    <br><br><br>
+    <hr id="hr-1">
+    <ul class="footer-col">
       <li>Status</li>
       <li>Privacy</li>
       <li>Terms</li>
       <li>Cookie Preferences</li>
       <li>Contact Us</li>
-      <li>Change Region</li>
-      <li>Download Slack</li>
+      <li> <img id="icon-region" src="./images/icon-region.png" alt="Region"> Change Region</li>
+      <li id="f-download"> <img id="icon-download" src="./images/icon-download.png" alt="Download">Download Slack</li>
     </ul>
 
-    <hr>
+    <hr id="hr-2">
 
-    <ul>
+    <ul class="footer-row">
       <li>
-        <i class="fab fa-twitter"></i>
+        <i class="fab fa-twitter"></i></a>
       </li>
       <li>
-        <i class="fab fa-facebook"></i>
+        <i class="fab fa-facebook"></i></a>
       </li>
       <li>
-        <i class="fab fa-youtube"></i>
+        <i class="fab fa-youtube"></i></a>
       </li>
       <li>
-        <i class="fab fa-linkedin"></i>
+        <i class="fab fa-linkedin"></i></a>
       </li>
     </ul>
 
-    <div>
-      <small>
+    <div class="info-final">
+      <small id="final-data">
         &copy; 2022 Slack Technologies, LLC, a Salesforce company. All rights reserved. Various trademarks held by
         their respective owners.
       </small>
